@@ -12,13 +12,11 @@ The project includes both Jupyter Notebook files for reproducibility and rendere
 
 The HTML versions contain the complete notebook outputs and visual presentation, while the `.ipynb` files provide the original executable workflows.
 
-### Available Reports
+## Project Website
 
-- [01 - Data Audit Report](notebooks/01_data_audit.html)
-- [02 - Data Cleaning Report](notebooks/02_data_cleaning.html)
-- [03 - Classical Machine Learning Models Report](notebooks/03_classic_models.html)
-- [04 - ParsBERT Fine-tuning Report](notebooks/04_parsbert.html)
-- [05 - Extended Analysis Report](notebooks/05_extended_analysis.html)
+The complete interactive HTML reports and project documentation are available here:
+
+[Open Persian Sentiment Analysis Reports](https://azizneon.github.io/Persian-Sentiment-Analysis/)
 
 ## Results Visualization
 
