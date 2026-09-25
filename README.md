@@ -1,5 +1,3 @@
-![Model Comparison](outputs/04_parsbert/comparison/model_comparison.png)
-
 # Persian Sentiment Analysis
 
 Persian sentiment analysis using the **SentiPers** dataset and comparing classical machine learning approaches with the **ParsBERT** Transformer model.
@@ -7,6 +5,16 @@ Persian sentiment analysis using the **SentiPers** dataset and comparing classic
 ## Project Goal
 
 The main objective of this project is to evaluate different classification approaches for five-class Persian sentiment analysis and compare classical machine learning models with a Transformer-based model.
+
+## Results Visualization
+
+### Model Comparison
+
+![Model Comparison](outputs/04_parsbert/comparison/model_comparison.png)
+
+### Learning Curve Comparison
+
+![Learning Curve Comparison](outputs/05_extended_analysis/plots/svm_vs_parsbert_learning_curve.png)
 
 Sentiment classes:
 
@@ -153,6 +161,8 @@ ParsBERT achieved higher Macro F1 values than Linear SVM across all evaluated tr
 ## Error Analysis
 
 Analysis of ParsBERT errors showed that a significant portion of mistakes occurred between sentiment classes with similar emotional intensity.
+
+![ParsBERT Confusion Matrix](outputs/04_parsbert/plots/confusion_matrix.png)
 
 The most frequent confusion patterns include:
 
