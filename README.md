@@ -1,3 +1,5 @@
+![Model Comparison](outputs/04_parsbert/comparison/model_comparison.png)
+
 # Persian Sentiment Analysis
 
 Persian sentiment analysis using the **SentiPers** dataset and comparing classical machine learning approaches with the **ParsBERT** Transformer model.
