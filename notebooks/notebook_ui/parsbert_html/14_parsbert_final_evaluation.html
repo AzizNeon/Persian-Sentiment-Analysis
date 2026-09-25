@@ -1,0 +1,60 @@
+<div id="parsbert-step-14" class="sentipers-flip-card big-large-height">
+    <div class="step-card-inner">
+        <div class="step-card-face step-card-front">
+            <span class="step-badge en">STEP 14</span>
+            <h2>Final Model Evaluation on Test Set</h2>
+            <p class="step-subtitle">
+                The best ParsBERT checkpoint after Fine-tuning is evaluated for
+                the first time on the fixed Test Set.
+            </p>
+            <span class="step-hint">
+                Hover over the card to view the details.
+            </span>
+        </div>
+        <div class="step-card-face step-card-back">
+            <h3>Final Test Evaluation</h3>
+            <p>
+                At this stage, no changes are made to model weights, training
+                settings, or input data. The final model is evaluated only on
+                the same Test Set used for comparison with classic models.
+            </p>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="item-title en">Test Set</span>
+                    <p>
+                        The test set contains
+                        <span class="en">2619</span>
+                        fixed samples.
+                    </p>
+                </div>
+                <div class="info-item">
+                    <span class="item-title en">Metrics</span>
+                    <p>Accuracy, Macro F1, and Weighted F1 are calculated.</p>
+                </div>
+                <div class="info-item">
+                    <span class="item-title en">Error Structure</span>
+                    <p>
+                        Confusion matrix and complete class-level performance
+                        reports are extracted.
+                    </p>
+                </div>
+                <div class="info-item">
+                    <span class="item-title en">Predictions</span>
+                    <p>
+                        Predictions and confidence scores are saved for error
+                        analysis.
+                    </p>
+                </div>
+            </div>
+            <div class="back-note accent">
+                The Test Set is used only for final evaluation and no training
+                decisions are made based on its results.
+            </div>
+            <div class="notebook-nav-actions">
+                <a class="notebook-nav-button" href="#parsbert-navigation">
+                    Back to Navigation
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

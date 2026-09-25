@@ -1,0 +1,9 @@
+﻿item,value
+python_version,3.10.0
+pandas_version,2.3.3
+numpy_version,2.2.6
+scikit_learn_version,1.7.2
+matplotlib_version,3.10.7
+random_state,42
+test_size,0.2
+cv_folds,10

@@ -1,0 +1,11 @@
+Finding,Result
+Top Directed Confusion,happy → delighted
+Top Directed Confusion Count,166
+Top Confused Class Pair,neutral ↔ happy
+Top Pair Total Confusions,304
+Best SVM Train Percentage,80
+Best SVM Macro F1,0.5132
+Best ParsBERT Train Percentage,80
+Best ParsBERT Macro F1,0.5969
+Largest ParsBERT Advantage At (%),20
+Largest Macro F1 Advantage,0.1036

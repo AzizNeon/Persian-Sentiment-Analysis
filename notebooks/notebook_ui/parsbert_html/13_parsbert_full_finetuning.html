@@ -1,0 +1,39 @@
+<div id="parsbert-step-13" class="sentipers-flip-card min-large-height">
+    <div class="step-card-inner">
+        <div class="step-card-face step-card-front">
+            <span class="step-badge en">STEP 13</span>
+            <h2>Full ParsBERT Fine-Tuning</h2>
+            <p class="step-subtitle">
+                ParsBERT is fine-tuned on the complete training dataset using
+                the final selected settings for Persian sentiment
+                classification.
+            </p>
+            <span class="step-hint">
+                Hover over the card to view the details.
+            </span>
+        </div>
+        <div class="step-card-face step-card-back">
+            <h3>Full ParsBERT Fine-Tuning</h3>
+            <p>
+                The pretrained ParsBERT weights are loaded and trained on all
+                Train samples for three Epochs.
+            </p>
+            <div class="back-note accent">
+                <span class="en">
+                    Train = 9,165 | Epochs = 3 | Effective Batch = 16 | FP16
+                </span>
+            </div>
+            <p>
+                After each Epoch, model performance is evaluated on the
+                Validation set and the best Checkpoint is selected based on
+                <code>Macro F1</code>. The Test set is not used during this
+                stage.
+            </p>
+            <div class="notebook-nav-actions">
+                <a class="notebook-nav-button" href="#parsbert-navigation">
+                    Back to Navigation
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

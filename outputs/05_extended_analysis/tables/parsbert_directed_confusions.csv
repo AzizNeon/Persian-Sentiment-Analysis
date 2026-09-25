@@ -1,0 +1,21 @@
+True Class,Predicted Class,Count,True Class (%)
+happy,delighted,166,19.9
+happy,neutral,157,18.82
+neutral,happy,147,14.82
+delighted,happy,78,16.22
+angry,neutral,69,25.09
+neutral,angry,59,5.95
+angry,happy,24,8.73
+happy,angry,22,2.64
+neutral,delighted,21,2.12
+furious,angry,21,56.76
+furious,neutral,7,18.92
+delighted,neutral,7,1.46
+delighted,angry,6,1.25
+furious,happy,4,10.81
+angry,delighted,3,1.09
+furious,delighted,1,2.7
+neutral,furious,1,0.1
+angry,furious,0,0.0
+happy,furious,0,0.0
+delighted,furious,0,0.0

@@ -1,0 +1,63 @@
+<div id="sentipers-step-06" class="sentipers-flip-card big-large-height">
+    <div class="step-card-inner">
+        <section class="step-card-face step-card-front">
+            <span class="step-badge en">STEP 06</span>
+            <h2>Define TF-IDF Feature Extraction</h2>
+            <p class="step-subtitle">
+                Configuration of converting Persian texts into numerical vectors
+                for classic machine learning models.
+            </p>
+            <span class="step-hint">
+                The back side explains data leakage prevention and TF-IDF
+                settings.
+            </span>
+        </section>
+        <section class="step-card-face step-card-back">
+            <h3>Main Feature Extraction Settings</h3>
+            <div class="info-grid">
+                <div class="info-item">
+                    <code class="item-title">ngram_range=(1, 2)</code>
+                    <p>
+                        In addition to single words, two consecutive words are
+                        also considered as features.
+                    </p>
+                </div>
+                <div class="info-item">
+                    <code class="item-title">min_df=2</code>
+                    <p>
+                        Features appearing in only one document are removed to
+                        reduce vocabulary noise.
+                    </p>
+                </div>
+                <div class="info-item">
+                    <code class="item-title">sublinear_tf=True</code>
+                    <p>
+                        The effect of very frequent words is controlled using
+                        logarithmic scaling.
+                    </p>
+                </div>
+                <div class="info-item">
+                    <code class="item-title">stop_words=None</code>
+                    <p>
+                        Stop words are not removed because words such as
+                        <span class="en">not</span>
+                        and
+                        <span class="en">does not</span>
+                        can change sentiment direction.
+                    </p>
+                </div>
+            </div>
+            <p class="back-note accent">
+                TF-IDF is placed inside a
+                <code>Pipeline</code>
+                so that it is fitted only on training data at each stage and
+                test information does not enter the learning process.
+            </p>
+            <div class="notebook-nav-actions">
+                <a href="#classic-navigation" class="notebook-nav-button">
+                    Back to Navigation
+                </a>
+            </div>
+        </section>
+    </div>
+</div>

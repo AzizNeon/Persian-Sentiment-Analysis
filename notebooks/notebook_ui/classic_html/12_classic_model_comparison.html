@@ -1,0 +1,61 @@
+<div id="sentipers-step-12" class="sentipers-flip-card big-large-height">
+    <div class="step-card-inner">
+        <section class="step-card-face step-card-front">
+            <span class="step-badge en">STEP 12</span>
+            <h2>Initial Classic Model Comparison</h2>
+            <p class="step-subtitle">
+                All trained models are compared and ranked using common
+                evaluation metrics.
+            </p>
+            <span class="step-hint">
+                The back side explains the main ranking metric and baseline
+                role.
+            </span>
+        </section>
+        <section class="step-card-face step-card-back">
+            <h3>How Are Models Compared?</h3>
+            <div class="info-grid">
+                <div class="info-item">
+                    <code class="item-title">Macro F1</code>
+                    <p>
+                        The main ranking metric because all classes are
+                        considered with equal importance.
+                    </p>
+                </div>
+                <div class="info-item">
+                    <code class="item-title">Weighted F1</code>
+                    <p>
+                        Shows overall model performance based on the actual
+                        number of samples in each class.
+                    </p>
+                </div>
+                <div class="info-item">
+                    <span class="item-title">Baseline Model</span>
+                    <p>
+                        Real model results are compared with
+                        <code>Dummy Classifier</code>
+                        to measure actual learning ability.
+                    </p>
+                </div>
+                <div class="info-item">
+                    <span class="item-title">Temporary Ranking</span>
+                    <p>
+                        Current ranking is based on the test set and final
+                        selection is performed after cross-validation.
+                    </p>
+                </div>
+            </div>
+            <p class="back-note accent">
+                Higher
+                <code>Accuracy</code>
+                alone is not sufficient. A suitable model should also perform
+                well on minority classes.
+            </p>
+            <div class="notebook-nav-actions">
+                <a href="#classic-navigation" class="notebook-nav-button">
+                    Back to Navigation
+                </a>
+            </div>
+        </section>
+    </div>
+</div>

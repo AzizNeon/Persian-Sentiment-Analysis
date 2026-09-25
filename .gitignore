@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv/
+venv/
+
+# Raw dataset
+data/raw/
+
+# Model files
+outputs/models/
+*.joblib
+*.bin
+*.pt
+*.pth
+*.safetensors
+
+# Large prediction files
+outputs/**/test_predictions.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ParsBERT error analysis files containing predictions
+outputs/04_parsbert/error_analysis/paired_predictions.csv
+outputs/04_parsbert/error_analysis/model_disagreements.csv

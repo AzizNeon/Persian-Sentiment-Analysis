@@ -1,0 +1,4 @@
+﻿error_severity,count,percentage
+correct,1582,60.40473463153876
+adjacent_class_error,819,31.27147766323024
+distant_class_error,218,8.323787705231005

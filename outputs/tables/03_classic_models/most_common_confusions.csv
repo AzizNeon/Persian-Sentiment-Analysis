@@ -1,0 +1,5 @@
+﻿model,actual_label,actual_label_name,predicted_label,predicted_label_name,error_count,error_rate_within_actual_class
+Multinomial Naive Bayes,1,positive,0,neutral,298,0.35731414868105515
+Logistic Regression,1,positive,0,neutral,260,0.3117505995203837
+Linear SVM,1,positive,0,neutral,211,0.2529976019184652
+SGD Classifier,1,positive,0,neutral,211,0.2529976019184652

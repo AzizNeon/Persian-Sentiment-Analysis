@@ -1,0 +1,82 @@
+<div id="sentipers-step-10" class="sentipers-flip-card x-large-height">
+    <div class="step-card-inner">
+        <section class="step-card-face step-card-front">
+            <span class="step-badge en"> STEP 10 </span>
+
+            <h2>Initial Text Normalization</h2>
+
+            <p class="step-subtitle">
+                Creating a normalized version only for detecting hidden
+                duplicates.
+            </p>
+
+            <span class="step-hint">
+                The back side explains normalization operations and storage
+                location.
+            </span>
+        </section>
+
+        <section class="step-card-face step-card-back">
+            <h3>What Changes Does This Function Apply?</h3>
+
+            <div class="info-grid">
+                <div class="info-item">
+                    <code class="item-title">ی</code>
+
+                    <p>Unifies different forms of the Persian character "ی".</p>
+                </div>
+
+                <div class="info-item">
+                    <code class="item-title">ک</code>
+
+                    <p>Unifies Arabic and Persian forms of "ک".</p>
+                </div>
+
+                <div class="info-item">
+                    <code class="item-title">◌</code>
+
+                    <p>Removes invisible characters.</p>
+                </div>
+
+                <div class="info-item">
+                    <code class="item-title">‌</code>
+
+                    <p>
+                        Converts zero-width characters into spaces for
+                        comparison.
+                    </p>
+                </div>
+
+                <div class="info-item">
+                    <code class="item-title">␠</code>
+
+                    <p>Converts repeated spaces into a single space.</p>
+                </div>
+            </div>
+
+            <p class="back-note accent">
+                No punctuation marks, numbers, or words are removed.
+            </p>
+
+            <div class="info-grid">
+                <div class="info-item">
+                    <code class="item-title"> df_raw </code>
+
+                    <p>Remains unchanged.</p>
+                </div>
+
+                <div class="info-item">
+                    <code class="item-title"> audit_df </code>
+
+                    <p>Stores the analyzed version.</p>
+                </div>
+            </div>
+
+            <div class="notebook-nav-actions">
+                <a class="notebook-nav-button" href="#audit-navigation">
+                    Back to Navigation
+                </a>
+            </div>
+        </section>
+    </div>
+</div>

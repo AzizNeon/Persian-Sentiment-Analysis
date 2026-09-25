@@ -1,0 +1,10 @@
+﻿check,passed
+file_exists,True
+rows_match,True
+columns_match,True
+content_matches,True
+no_missing_text,True
+no_blank_text,True
+no_missing_labels,True
+unique_texts,True
+class_distribution_matches,True

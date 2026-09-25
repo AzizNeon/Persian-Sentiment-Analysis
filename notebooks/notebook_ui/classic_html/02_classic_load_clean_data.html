@@ -1,0 +1,46 @@
+<div id="sentipers-step-02" class="sentipers-flip-card large-height">
+    <div class="step-card-inner">
+        <section class="step-card-face step-card-front">
+            <span class="step-badge en">STEP 02</span>
+            <h2>Load Clean Dataset</h2>
+            <p class="step-subtitle">
+                The final dataset version is loaded from the processed file and
+                its initial structure is checked.
+            </p>
+            <span class="step-hint">
+                The back side explains the required checks during data loading.
+            </span>
+        </section>
+        <section class="step-card-face step-card-back">
+            <h3>What Is Checked?</h3>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="item-title">Required Columns</span>
+                    <p>
+                        The existence of the text column
+                        <code>text</code>
+                        and label column
+                        <code>polarity</code>
+                        is checked before modeling.
+                    </p>
+                </div>
+                <div class="info-item">
+                    <span class="item-title">Input File Integrity</span>
+                    <p>
+                        Empty datasets, row count, column count, and approximate
+                        data size are verified.
+                    </p>
+                </div>
+            </div>
+            <p class="back-note accent">
+                No changes are applied to texts or labels at this stage. The
+                file is only loaded for modeling.
+            </p>
+            <div class="notebook-nav-actions">
+                <a href="#classic-navigation" class="notebook-nav-button">
+                    Back to Navigation
+                </a>
+            </div>
+        </section>
+    </div>
+</div>

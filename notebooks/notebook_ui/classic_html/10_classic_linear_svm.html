@@ -1,0 +1,62 @@
+<div id="sentipers-step-10" class="sentipers-flip-card big-large-height">
+    <div class="step-card-inner">
+        <section class="step-card-face step-card-front">
+            <span class="step-badge en">STEP 10</span>
+            <h2>Train Linear SVM Model</h2>
+            <p class="step-subtitle">
+                Linear Support Vector Machine is trained and evaluated using
+                TF-IDF features and balanced class weighting.
+            </p>
+            <span class="step-hint">
+                The back side explains decision boundaries, margins, and main
+                settings.
+            </span>
+        </section>
+        <section class="step-card-face step-card-back">
+            <h3>How Does Linear SVM Work?</h3>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="item-title">Decision Boundary</span>
+                    <p>
+                        The model creates linear boundaries in the
+                        <code>TF-IDF</code>
+                        feature space to separate sentiment classes.
+                    </p>
+                </div>
+                <div class="info-item">
+                    <span class="item-title">Margin Maximization</span>
+                    <p>
+                        The model attempts to increase the distance between
+                        samples close to the decision boundary for more stable
+                        classification.
+                    </p>
+                </div>
+                <div class="info-item">
+                    <code class="item-title">C=1.0</code>
+                    <p>
+                        Controls the balance between a wider decision margin and
+                        penalties for misclassified samples.
+                    </p>
+                </div>
+                <div class="info-item">
+                    <code class="item-title">class_weight="balanced"</code>
+                    <p>
+                        Minority class errors receive higher weights to reduce
+                        the impact of dominant classes.
+                    </p>
+                </div>
+            </div>
+            <p class="back-note accent">
+                The
+                <code>LinearSVC</code>
+                model does not directly generate class probabilities; however,
+                it usually performs well on high-dimensional text data.
+            </p>
+            <div class="notebook-nav-actions">
+                <a href="#classic-navigation" class="notebook-nav-button">
+                    Back to Navigation
+                </a>
+            </div>
+        </section>
+    </div>
+</div>

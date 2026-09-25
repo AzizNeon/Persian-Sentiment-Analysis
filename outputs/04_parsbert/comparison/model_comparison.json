@@ -1,0 +1,23 @@
+[
+    {
+        "Metric": "Accuracy",
+        "Linear SVM": 0.6040473463153876,
+        "ParsBERT": 0.6972126765941199,
+        "Absolute Improvement": 0.0931653302787323,
+        "Relative Improvement (%)": 15.42351453855878
+    },
+    {
+        "Metric": "Macro F1",
+        "Linear SVM": 0.4987346555051423,
+        "ParsBERT": 0.5896079162455397,
+        "Absolute Improvement": 0.09087326074039737,
+        "Relative Improvement (%)": 18.22076323297738
+    },
+    {
+        "Metric": "Weighted F1",
+        "Linear SVM": 0.5992554149761676,
+        "ParsBERT": 0.6920408133086345,
+        "Absolute Improvement": 0.0927853983324669,
+        "Relative Improvement (%)": 15.483447627445631
+    }
+]

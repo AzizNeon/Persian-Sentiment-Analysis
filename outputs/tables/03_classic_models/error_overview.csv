@@ -1,0 +1,9 @@
+﻿metric,value
+selected_model,Linear SVM
+total_test_samples,2619
+correct_predictions,1582
+incorrect_predictions,1037
+accuracy,0.6040473463153876
+error_rate,0.39595265368461247
+adjacent_class_errors,819
+distant_class_errors,218

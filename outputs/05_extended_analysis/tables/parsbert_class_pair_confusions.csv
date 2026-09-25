@@ -1,0 +1,11 @@
+Class A,Class B,A → B,B → A,Total Confusions
+neutral,happy,147,157,304
+happy,delighted,166,78,244
+angry,neutral,69,59,128
+angry,happy,24,22,46
+neutral,delighted,21,7,28
+furious,angry,21,0,21
+angry,delighted,3,6,9
+furious,neutral,7,1,8
+furious,happy,4,0,4
+furious,delighted,1,0,1

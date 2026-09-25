@@ -1,0 +1,71 @@
+<div id="sentipers-step-15" class="sentipers-flip-card big-large-height">
+    <div class="step-card-inner">
+        <section class="step-card-face step-card-front">
+            <span class="step-badge en">STEP 15</span>
+            <h2>Save Audit Reports</h2>
+            <p class="step-subtitle">
+                Audit summaries, data distributions, and cases requiring review
+                are saved into separate files.
+            </p>
+            <span class="step-hint">
+                The back side explains the generated reports and
+                duplicate-related files.
+            </span>
+        </section>
+
+        <section class="step-card-face step-card-back">
+            <h3>Generated Reports</h3>
+
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="item-title"> Summary Reports </span>
+                    <p>
+                        Files
+                        <code>audit_summary.csv</code>
+                        and
+                        <code>missing_summary.csv</code>
+                        store audit results and missing data information.
+                    </p>
+                </div>
+
+                <div class="info-item">
+                    <span class="item-title"> Statistical Reports </span>
+                    <p>
+                        Class distribution, source file information, and text
+                        length statistics are stored in separate files.
+                    </p>
+                </div>
+
+                <div class="info-item">
+                    <code class="item-title"> duplicate_same_label.csv </code>
+                    <p>
+                        Contains duplicate texts where all copies have the same
+                        sentiment label.
+                    </p>
+                </div>
+
+                <div class="info-item">
+                    <code class="item-title"> conflicting_labels.csv </code>
+                    <p>
+                        Contains identical or normalized texts assigned with
+                        more than one sentiment label.
+                    </p>
+                </div>
+            </div>
+
+            <p class="back-note accent">
+                No rows are removed at this stage. Reports are saved with
+                <code>UTF-8-SIG</code>
+                encoding in the
+                <code>outputs/tables</code>
+                directory.
+            </p>
+
+            <div class="notebook-nav-actions">
+                <a class="notebook-nav-button" href="#audit-navigation">
+                    Back to Navigation
+                </a>
+            </div>
+        </section>
+    </div>
+</div>

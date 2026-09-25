@@ -1,0 +1,36 @@
+<div id="parsbert-step-10" class="sentipers-flip-card large-height">
+    <div class="step-card-inner">
+        <div class="step-card-face step-card-front">
+            <span class="step-badge en">STEP 10</span>
+            <h2>Load ParsBERT Model and Test Forward Pass</h2>
+            <p class="step-subtitle">
+                The pretrained ParsBERT model is prepared for five-class
+                classification and a test forward pass is executed on CPU.
+            </p>
+            <span class="step-hint">
+                Hover over the card to view the details.
+            </span>
+        </div>
+        <div class="step-card-face step-card-back">
+            <h3>What Happens in This Stage?</h3>
+            <p>
+                The pretrained ParsBERT weights are loaded and a five-output
+                classification layer is added on top of the model. Then, real
+                samples are used to verify that the model can generate
+                <span class="en">Logit</span>,
+                <span class="en">Probability</span>, and
+                <span class="en">Loss</span>
+                without errors.
+            </p>
+            <div class="back-note accent">
+                This stage only validates the architecture. No model weights are
+                fine-tuned yet.
+            </div>
+            <div class="notebook-nav-actions">
+                <a class="notebook-nav-button" href="#parsbert-navigation">
+                    Back to Navigation
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

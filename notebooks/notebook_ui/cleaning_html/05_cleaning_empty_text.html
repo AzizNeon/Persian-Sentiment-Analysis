@@ -1,0 +1,50 @@
+<div id="sentipers-step-05" class="sentipers-flip-card min-large-height">
+    <div class="step-card-inner">
+        <section class="step-card-face step-card-front">
+            <span class="step-badge en">STEP 05</span>
+            <h2>Remove Empty Text Samples</h2>
+            <p class="step-subtitle">
+                Rows whose text becomes empty after normalization are identified
+                and removed from the cleaned dataset.
+            </p>
+            <span class="step-hint">
+                The back side explains the reason for removal and deleted row storage.
+            </span>
+        </section>
+        <section class="step-card-face step-card-back">
+            <h3>Why Are These Rows Removed?</h3>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="item-title">No Meaningful Content</span>
+                    <p>
+                        Rows that contain no text after removing spaces and invisible
+                        characters cannot provide useful information for model training.
+                    </p>
+                </div>
+                <div class="info-item">
+                    <span class="item-title">Raw Data Protection</span>
+                    <p>
+                        Removal is performed only from
+                        <code>df_clean</code>
+                        and
+                        <code>df_raw</code>
+                        remains unchanged.
+                    </p>
+                </div>
+            </div>
+            <p class="back-note accent">
+                Removed rows are stored in
+                <code>removed_empty_text_rows</code>
+                so the cleaning process remains traceable and reportable.
+            </p>
+            <div class="notebook-nav-actions">
+                <a
+                    class="notebook-nav-button"
+                    href="#cleaning-navigation"
+                >
+                    Back to Navigation
+                </a>
+            </div>
+        </section>
+    </div>
+</div>

@@ -1,0 +1,21 @@
+﻿metric,value
+Number of rows,15683.0
+Number of columns,5.0
+Number of classes,5.0
+Number of source files,290.0
+Missing values,0.0
+Blank values,0.0
+Unique exact texts,13525.0
+Exact duplicate groups,2158.0
+Extra exact duplicate rows,2158.0
+Exact conflicting groups,122.0
+Unique normalized texts,13262.0
+Normalized duplicate groups,2291.0
+Extra normalized duplicate rows,2421.0
+Normalized conflicting groups,198.0
+Minimum character count,2.0
+Median character count,87.0
+Maximum character count,1655.0
+Minimum word count,1.0
+Median word count,18.0
+Maximum word count,338.0

@@ -1,0 +1,5 @@
+﻿check,passed
+no_missing_text,True
+no_blank_text,True
+no_missing_labels,True
+unique_normalized_texts,True

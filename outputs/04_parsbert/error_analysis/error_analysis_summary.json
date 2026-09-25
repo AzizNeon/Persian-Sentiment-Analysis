@@ -1,0 +1,8 @@
+{
+    "test_samples": 2619,
+    "both_correct": 1362,
+    "parsbert_only_correct": 464,
+    "svm_only_correct": 220,
+    "both_wrong": 573,
+    "mcnemar_exact_p_value": 5.852536822759162e-21
+}

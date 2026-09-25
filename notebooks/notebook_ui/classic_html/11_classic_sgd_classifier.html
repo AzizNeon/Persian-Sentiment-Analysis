@@ -1,0 +1,59 @@
+<div id="sentipers-step-11" class="sentipers-flip-card big-large-height">
+    <div class="step-card-inner">
+        <section class="step-card-face step-card-front">
+            <span class="step-badge en">STEP 11</span>
+            <h2>Train SGD Classifier Model</h2>
+            <p class="step-subtitle">
+                A fast linear model using stochastic gradient descent, TF-IDF
+                features, and balanced class weighting is trained.
+            </p>
+            <span class="step-hint">
+                The back side explains incremental learning and main model
+                settings.
+            </span>
+        </section>
+        <section class="step-card-face step-card-back">
+            <h3>Main Model Settings</h3>
+            <div class="info-grid">
+                <div class="info-item">
+                    <code class="item-title">loss="modified_huber"</code>
+                    <p>
+                        A robust loss function that combines margin-based
+                        learning with smoother probability-like outputs.
+                    </p>
+                </div>
+                <div class="info-item">
+                    <code class="item-title">class_weight="balanced"</code>
+                    <p>
+                        Minority classes receive higher weights during training
+                        to reduce the effect of frequent classes.
+                    </p>
+                </div>
+                <div class="info-item">
+                    <code class="item-title">alpha=0.0001</code>
+                    <p>
+                        Controls regularization strength and prevents feature
+                        weights from becoming excessively large.
+                    </p>
+                </div>
+                <div class="info-item">
+                    <code class="item-title">learning_rate="optimal"</code>
+                    <p>
+                        The weight update size is automatically determined
+                        according to the training process.
+                    </p>
+                </div>
+            </div>
+            <p class="back-note accent">
+                The model updates its weights gradually by observing training
+                samples and is suitable for high-dimensional text data without
+                requiring all computations to be stored in memory.
+            </p>
+            <div class="notebook-nav-actions">
+                <a href="#classic-navigation" class="notebook-nav-button">
+                    Back to Navigation
+                </a>
+            </div>
+        </section>
+    </div>
+</div>

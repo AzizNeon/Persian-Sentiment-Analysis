@@ -1,0 +1,49 @@
+<div id="sentipers-step-16" class="sentipers-flip-card min-large-height">
+    <div class="step-card-inner">
+        <section class="step-card-face step-card-front">
+            <span class="step-badge en">STEP 16</span>
+            <h2>Final Raw Data Integrity Check</h2>
+            <p class="step-subtitle">
+                Verifying that the original dataset remains unchanged during the
+                audit process.
+            </p>
+            <span class="step-hint">
+                The back side explains the role of this check in protecting raw
+                data.
+            </span>
+        </section>
+
+        <section class="step-card-face step-card-back">
+            <h3>What Does This Check Confirm?</h3>
+
+            <div class="info-grid">
+                <div class="info-item">
+                    <code class="item-title"> audit_df </code>
+                    <p>
+                        All normalization steps, calculations, and helper
+                        columns are applied only to this version.
+                    </p>
+                </div>
+
+                <div class="info-item">
+                    <code class="item-title"> df_raw </code>
+                    <p>
+                        The original dataset remains unchanged without deletion,
+                        correction, or content modification.
+                    </p>
+                </div>
+            </div>
+
+            <p class="back-note accent">
+                Matching row counts and the final fingerprint with the initial
+                values confirm that the raw dataset has not been modified.
+            </p>
+
+            <div class="notebook-nav-actions">
+                <a class="notebook-nav-button" href="#audit-navigation">
+                    Back to Navigation
+                </a>
+            </div>
+        </section>
+    </div>
+</div>

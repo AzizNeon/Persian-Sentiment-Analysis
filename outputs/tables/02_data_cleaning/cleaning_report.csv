@@ -1,0 +1,5 @@
+﻿operation,rows_before,affected_groups,removed_rows,rows_after
+empty_text_removal,15683,0,0,15683
+same_label_duplicate_removal,15683,2077,2154,13529
+conflicting_label_removal,13529,198,435,13094
+overall_cleaning,15683,,2589,13094

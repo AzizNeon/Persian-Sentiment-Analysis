@@ -1,0 +1,57 @@
+<div id="extended-step-01" class="sentipers-flip-card big-large-height">
+    <div class="step-card-inner">
+        <div class="step-card-face step-card-front">
+            <span class="step-badge en">STEP 01</span>
+            <h2>Extended Analysis Setup</h2>
+
+            <p class="step-subtitle">
+                Loading fixed splits and existing ParsBERT and Linear SVM
+                outputs from previous experiments.
+            </p>
+        </div>
+
+        <div class="step-card-face step-card-back">
+            <h3>Setup & Existing Artifacts</h3>
+
+            <p>
+                No new model training is performed in this stage. Existing
+                experiment outputs and fixed datasets are loaded and validated
+                for extended analysis.
+            </p>
+
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="item-title en"> Fixed Split </span>
+                    <p>
+                        The same Train, Validation, and Test splits from the
+                        ParsBERT experiment are preserved.
+                    </p>
+                </div>
+
+                <div class="info-item">
+                    <span class="item-title en"> Test Set </span>
+                    <p>The 2619-sample test set remains unchanged.</p>
+                </div>
+
+                <div class="info-item">
+                    <span class="item-title en"> Predictions </span>
+                    <p>Saved ParsBERT and Linear SVM predictions are reused.</p>
+                </div>
+
+                <div class="info-item">
+                    <span class="item-title en"> Reproducibility </span>
+                    <p>
+                        All new analyses are performed using fixed seeds and
+                        existing artifacts.
+                    </p>
+                </div>
+            </div>
+
+            <div class="notebook-nav-actions">
+                <a class="notebook-nav-button" href="#extended-navigation">
+                    Back to Navigation
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

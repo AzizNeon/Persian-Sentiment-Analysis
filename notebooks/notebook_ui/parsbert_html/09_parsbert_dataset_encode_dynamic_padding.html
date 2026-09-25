@@ -1,0 +1,34 @@
+<div id="parsbert-step-09" class="sentipers-flip-card large-height">
+    <div class="step-card-inner">
+        <div class="step-card-face step-card-front">
+            <span class="step-badge en">STEP 09</span>
+            <h2>Dataset Encoding and ParsBERT Dataset Construction</h2>
+            <p class="step-subtitle">
+                Train, Validation, and Test texts are encoded using the selected
+                input length and converted into PyTorch datasets.
+            </p>
+            <span class="step-hint">
+                Hover over the card to view the details.
+            </span>
+        </div>
+        <div class="step-card-face step-card-back">
+            <h3>Why Dynamic Padding?</h3>
+            <p>
+                Most SentiPers texts are much shorter than the maximum length of
+                128 tokens. Therefore, fixed padding to the maximum length
+                creates unnecessary computation. Dynamic Padding extends each
+                batch only to the length of its longest sample.
+            </p>
+            <div class="back-note accent">
+                Based on the previous analysis,
+                <span class="en">MAX_LENGTH = 128</span>
+                was selected with coverage of 99.5% of Train samples.
+            </div>
+            <div class="notebook-nav-actions">
+                <a class="notebook-nav-button" href="#parsbert-navigation">
+                    Back to Navigation
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

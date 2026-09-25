@@ -1,0 +1,47 @@
+<div id="sentipers-step-07" class="sentipers-flip-card min-large-height">
+    <div class="step-card-inner">
+        <section class="step-card-face step-card-front">
+            <span class="step-badge en">STEP 07</span>
+            <h2>Build and Evaluate Baseline Model</h2>
+            <p class="step-subtitle">
+                A simple non-learning model is created to define the minimum
+                expected performance for real models.
+            </p>
+            <span class="step-hint">
+                The back side explains the role of the baseline model and why
+                TF-IDF is not used.
+            </span>
+        </section>
+        <section class="step-card-face step-card-back">
+            <h3>What Does the Baseline Model Do?</h3>
+            <div class="info-grid">
+                <div class="info-item">
+                    <code class="item-title">most_frequent</code>
+                    <p>
+                        The model predicts the most frequent label from the
+                        training data for all test samples.
+                    </p>
+                </div>
+                <div class="info-item">
+                    <span class="item-title">Comparison Metric</span>
+                    <p>
+                        Real models should achieve better performance than this
+                        baseline, especially in
+                        <code>Macro F1</code>.
+                    </p>
+                </div>
+            </div>
+            <p class="back-note accent">
+                The baseline model does not use
+                <code>TF-IDF</code>
+                because it does not learn from text and only provides a simple
+                reference point for model comparison.
+            </p>
+            <div class="notebook-nav-actions">
+                <a href="#classic-navigation" class="notebook-nav-button">
+                    Back to Navigation
+                </a>
+            </div>
+        </section>
+    </div>
+</div>

@@ -1,0 +1,51 @@
+<div id="parsbert-step-06" class="sentipers-flip-card medium-large-height">
+    <div class="step-card-inner">
+        <div class="step-card-face step-card-front">
+            <span class="step-badge en">STEP 06</span>
+            <h2>Stratified Dataset Split</h2>
+            <p class="step-subtitle">
+                Training, validation, and test sets are created while preserving
+                the original sentiment class distribution.
+            </p>
+            <span class="step-hint">
+                Hover over the card to view the details.
+            </span>
+        </div>
+        <div class="step-card-face step-card-back">
+            <h3>Why Stratified Split?</h3>
+            <p>
+                Stratification ensures that all dataset splits maintain similar
+                proportions of the five sentiment classes.
+            </p>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="item-title en">Train Set</span>
+                    <p>Used for updating model weights during Fine-tuning.</p>
+                </div>
+                <div class="info-item">
+                    <span class="item-title en">Validation Set</span>
+                    <p>
+                        Used for monitoring training progress and selecting the
+                        best checkpoint.
+                    </p>
+                </div>
+                <div class="info-item">
+                    <span class="item-title en">Test Set</span>
+                    <p>
+                        Reserved for final evaluation after training is
+                        complete.
+                    </p>
+                </div>
+            </div>
+            <div class="back-note accent">
+                The same test set is later used for comparison with classic
+                models.
+            </div>
+            <div class="notebook-nav-actions">
+                <a class="notebook-nav-button" href="#parsbert-navigation">
+                    Back to Navigation
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
