@@ -6,6 +6,20 @@ Persian sentiment analysis using the **SentiPers** dataset and comparing classic
 
 The main objective of this project is to evaluate different classification approaches for five-class Persian sentiment analysis and compare classical machine learning models with a Transformer-based model.
 
+## Notebook Reports
+
+The project includes both Jupyter Notebook files for reproducibility and rendered HTML reports for easier reading and visualization.
+
+The HTML versions contain the complete notebook outputs and visual presentation, while the `.ipynb` files provide the original executable workflows.
+
+### Available Reports
+
+- [01 - Data Audit Report](notebooks/01_data_audit.html)
+- [02 - Data Cleaning Report](notebooks/02_data_cleaning.html)
+- [03 - Classical Machine Learning Models Report](notebooks/03_classic_models.html)
+- [04 - ParsBERT Fine-tuning Report](notebooks/04_parsbert.html)
+- [05 - Extended Analysis Report](notebooks/05_extended_analysis.html)
+
 ## Results Visualization
 
 ### Model Comparison
@@ -177,30 +191,33 @@ Manual inspection showed that sentiment intensity ambiguity, descriptive sentenc
 ## Project Structure
 
 ```text
-PersianSentimentProject_Submission/
-│
-├── README.md
-├── requirements.txt
-│
-├── notebooks/
-│   ├── 01_data_audit.ipynb
-│   ├── 02_data_cleaning.ipynb
-│   ├── 03_classic_models.ipynb
-│   ├── 04_parsbert.ipynb
-│   ├── 05_extended_analysis.ipynb
-│   └── notebook_ui/
+PersianSentimentProject/
 │
 ├── data/
-│   ├── processed/
-│   └── interim/
+│ ├── interim/
+│ └── processed/
+│
+├── notebooks/
+│ ├── 01_data_audit.ipynb
+│ ├── 02_data_cleaning.ipynb
+│ ├── 03_classic_models.ipynb
+│ ├── 04_parsbert.ipynb
+│ ├── 05_extended_analysis.ipynb
+│ │
+│ ├── 01_data_audit.html
+│ ├── 02_data_cleaning.html
+│ ├── 03_classic_models.html
+│ ├── 04_parsbert.html
+│ └── 05_extended_analysis.html
 │
 ├── outputs/
-│   ├── models/
-│   ├── tables/
-│   ├── 04_parsbert/
-│   └── 05_extended_analysis/
+│ ├── plots/
+│ ├── tables/
+│ ├── 04_parsbert/
+│ └── 05_extended_analysis/
 │
-└── report/
+├── requirements.txt
+└── README.md
 ```
 
 ### notebooks
@@ -223,12 +240,10 @@ Contains:
 * Error Analysis
 * Plots
 
-### notebook_ui
-
-Contains HTML and CSS files used for the visual interface of the notebooks.
 
 ### report
 
+Rendered HTML notebook reports
 Contains the final project report and images used in the report.
 
 ## Running the Project
@@ -253,3 +268,38 @@ The base ParsBERT model is automatically downloaded when running the notebook an
 The results show that ParsBERT achieved better performance than the best evaluated classical approach, Linear SVM, for five-class Persian sentiment analysis.
 
 In addition to better performance on the main test set, ParsBERT also achieved higher Macro F1 values than Linear SVM across all evaluated training data sizes.
+
+## Installation
+
+``` bash
+pip install -r requirements.txt
+```
+
+Run notebooks:
+
+``` bash
+jupyter notebook
+```
+
+Execute notebooks in order: 1. Data Audit 2. Data Cleaning 3. Classical
+Models 4. ParsBERT Fine-tuning 5. Extended Analysis
+
+## Dataset
+
+The raw dataset is not included in this repository. It should be
+prepared separately before running the notebooks.
+
+## Technologies
+
+-   Python
+-   Pandas
+-   NumPy
+-   Scikit-learn
+-   PyTorch
+-   Hugging Face Transformers
+-   ParsBERT
+-   Jupyter Notebook
+
+## License
+
+This project is released for educational and research purposes.
