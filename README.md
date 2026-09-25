@@ -179,7 +179,6 @@ PersianSentimentProject_Submission/
 │   └── notebook_ui/
 │
 ├── data/
-│   ├── raw/
 │   ├── processed/
 │   └── interim/
 │
